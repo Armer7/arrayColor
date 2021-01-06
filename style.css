@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  background-color: #e9e9e9;
+  margin: 30px;
+}
+
+.formColor {
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.formColor input, .formColor select{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.viewColor {
+  flex-basis: 300px;
+  flex-shrink: 1;
+  height: 150px;
+  border: 30px solid;
+
+  margin: 10px;
+}
+
+.viewColor > div{
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+#viewBox {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.error{
+  color: red;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.button {
+  display: block;
+  height: 32px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin: 10px 0;
+
+}
+
+

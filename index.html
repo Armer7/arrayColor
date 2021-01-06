@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <meta content = "width=device-width, initial-scale=1.0"
+        name = "viewport">
+  <meta content = "ie=edge" http-equiv = "X-UA-Compatible">
+  <link rel = "stylesheet" href = "style.css">
+  <title>Array color</title>
+</head>
+
+<body>
+
+<div class = "container" id = "cont">
+  <form class = "formColor">
+    <label for = "nameColor">Color</label><label id = 'nameColorError' class = 'error'></label>
+    <input type = "text" name = "color" id = "nameColor" onkeyup = 'checkNameColor()'>
+    <label for = "typeColor">Type</label>
+    <select name = "typeColor" id = "typeColor">
+      <option value = "rgb">RGB</option>
+      <option value = "rgba">RGBA</option>
+      <option value = "hex">HEX</option>
+    </select>
+    <label for = "codeColor">Code</label><label id = 'codeError' class = 'error'></label>
+    <input type = "text" name = "codeColor" id = "codeColor" onkeyup = 'checkCodeColor()'>
+
+    <input type = "button" class = "button" onclick = "colorSave(event)">
+  </form>
+
+  <div id = "viewBox">
+  </div>
+</div>
+<script src = "basecolor.js"></script>
+</body>
+</html>
