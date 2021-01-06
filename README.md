@@ -12,4 +12,4 @@ The entered values are automatically validated.
 
 Work with cookies is also implemented. The array of colors is stored in cookies.
 
-The working code can be viewed [here](https://armer7.github.io/arraycolor/).
+The working code can be viewed [here](https://armer7.github.io/arrayColor/).
